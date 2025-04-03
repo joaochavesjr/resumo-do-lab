@@ -15,9 +15,10 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 
 - Quanto maior for o número de noves menor será a indisponibilidade.
 - Caso a indisponibilidade seja maior que a contratada a Azure gera créditos para ressarcimento do cliente.
-- Também foi verificado, nos recursos de Computação, a possibilidade de criar VMs em mais de uma zona, permitindo escolher até 3 zonas distintas, com a criação de uma VM em cada zona, possibilitando assim alta disponibilidade.
-- 
-
+- Também foi verificado, nos recursos de Computação, a possibilidade de criar VMs em mais de uma zona de disponibilidade, permitindo escolher até 3 zonas distintas, com a criação de uma VM em cada zona, possibilitando assim alta disponibilidade.
+- Outro ponto interessante foi a observação de dicas na interface (i) que apresenta um resumo de cada opção, clicando no ícone este leva para a página de documentação do recurso (saiba mais).
+- Também foi observado as contas de armazenamento, que permite escolher a estratégia de redundância que define como os dados serão replicados entre data centers e regiões.
+- E finalmente podemos concluir que todos os recursos para implementação de redundância e nível de disponibilidade impactam diretamente o custo das soluções.
 
 
 ---
