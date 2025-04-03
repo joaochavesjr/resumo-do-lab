@@ -15,6 +15,8 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 
 - Quanto maior for o número de noves menor será a indisponibilidade.
 - Caso a indisponibilidade seja maior que a contratada a Azure gera créditos para ressarcimento do cliente.
+- Também foi verificado, nos recursos de Computação, a possibilidade de criar VMs em mais de uma zona, permitindo escolher até 3 zonas distintas, com a criação de uma VM em cada zona, possibilitando assim alta disponibilidade.
+- 
 
 
 
