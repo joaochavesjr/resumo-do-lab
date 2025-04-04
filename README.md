@@ -1,5 +1,27 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
+---
+## Tipos de serviços de nuvem (Lab realizado em 04/04/2025)
+
+Vimos os seguintes tipos de serviços:
+
+- IaaS (Infraestrutura como Serviço) 
+  - Fornece infraestrutura virtualizada
+
+- PaaS (Plataforma como Serviço) 
+  - Oferece uma plataforma para desenvolver aplicativos
+  - Por exempplo instalação de Banco de dados;
+    
+- SaaS (Software como Serviço) 
+  - Fornece toda a aplicação pronta hospedada por terceiros
+  - Por exemplo, Office 365 
+
+- Observamos na criação de uma nova máquina virtual, a possibilidade de selecionar uma imagem de sistema operacional, seu tamanho e ter uma previsibilidade inicial de custos.
+- Outros detalhes da máquina também foi observado como discos adicionais, a parte de rede como endereçamento, gerenciamento, proteção, desligamento automático, entre outros.
+- Foi orientado que é importante verificar todas as opções e detalhes para criação da máquina no portal.
+- Também observamos a criação de banco de dados SQL, que inicialmente é necessário criar um servidor e definir recursos como localização, método de autenticação, redundância, e com base na configuração definida, podemos observar um resumo do custo mensal. 
+   
+---
 
 ## Benenfícios da Nuvem (Lab realizado em 03/04/2025)
 
