@@ -1,7 +1,22 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 ---
-## Tipos de serviços de nuvem (Lab realizado em 04/04/2025)
+### Componentes de Arquitetura do Azure (Lab realizado em 04/04/2025)
+
+- Acesso página do Azure global infraestructure, onde é possível abrir uma tela que exibe o globo e possibilita interagir e visualizar todas as regiões, datacenters e suas interligações em 3D.
+- É possível observar o datacenter de São Paulo e que sua replicação é com uma região dos Estados Unidos.
+- Existe um datacenter no Rio de Janeiro (Southeast) apenas para replicação de dados para atender exigências da LGPD e no caso de Disaster Recovery.
+- Ainda no globo (Global Map) é possível efetuar um tour virtual em um datacenter da Microsoft, com a possibilidade de acessar áreas internas, externas e sala de servidores.
+- Já retornando no portal do Azure, vimos a criação de um Grupo de Recursos, escolhendo a assinatura e a região, definição de marcações (rótulos).
+- Após a criação foram verificados recursos como log de atividade, IAM (Controle de acesso);
+- Comentado no aula que a permissão de acesso deve ser o mais restrito possível;
+- Observado também a tela de visualização de recursos, que permite uma representação gráfica e hierarquica;
+- Na parte de eventos é possível observar as automatizações.
+- Depois vimos a criação de uma rede virtual e seu endereçamento dentro do grupo de recursos.
+  
+  
+---
+### Tipos de serviços de nuvem (Lab realizado em 04/04/2025)
 
 Vimos os seguintes tipos de serviços:
 
