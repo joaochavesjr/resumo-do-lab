@@ -1,6 +1,42 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 ---
+### Computação e Rede do Azure (Lab realizado em 06/04/2025)
+Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
+
+- Primeiro iniciamos a criação de uma VM e observamos que há uma sugestão de vários padrões de máquinas pré definidos, divididos em ambientes de trabalho de desenvolvimento e produção e também o tipo de carga de trabalho, como uso geral, otimizado para memória e computação otimizada.
+- Também foi observado que há a possibilidade de escolhar sistemas operacionas já com recursos instalados como por exemplo, um servidor Wordpress que já vem instalado e configurado todos os componentes necessários.
+- Criação passo a passo de uma VM:
+  - Inicilmente definida a escolha de assinatura e grupo de recursos;
+  - Nome da VM;
+  - Região (EAST US 2);
+  - Opções de disponibilidade (Zona de Disponibilidade), dimensionamento automático, previsão de escalonamento, definir condições de dimensionamento para escalar horizontalmente (aumentar e diminuir limite (mínimo e máximo), duração da consulta);
+  - Selecionada imagem do Windows Server 2019 Datacenter - x64 Gen2;
+  - Entender o "Executar com desconto de Spot do Azure";
+  - Definir tamanho da VM entre os vários disponíveis (CPU, Memória, Disco, IOPS) e ver uma prévia do custo;
+  - Imgagens personalizadas;
+  - Definir usuário e senha para usuário administrador;
+  - Regas de portas de entrada, como por exemplo RDP, para acesso remoto;
+  - Tamanho e tipo de disco como HDD, SSD;
+  - Alerta para excluir os discos com a VM (opção) para evitar discos orfãos;
+  - Escolha de rede virtual e boas práticas para não expor portas em IPs públicos;
+  - Alerta para excluir o IP público e a NIC quando a VM for excluida (opção);
+  - Integração com o Azure AD, desligamento automático;
+  - Habilitar backup, definição de política;
+  - Habilitar monitoramento e regras de alertas;
+  - Instalação de agentes e estensões como CONTROL-M, HPE Security Fortify, agentes de monitoramento;
+  - Revisão de recursos e custos;
+  - Área de trabalho do Azure;
+    - Criar imagem personalizada
+    - Selecionar host pessoal ou em pool
+  - Aplicativos de Funções
+     - Código
+     - Image de Contâiner
+     - Pilha de runtime (.NET, Node.js, Python, Java, PowerShell Core, Custom Handler)
+     - Versão, região
+     - Sistema Operacional (Linux, Windows)
+    
+---
 ### Componentes de Arquitetura do Azure (Lab realizado em 04/04/2025)
 
 - Acesso página do Azure global infraestructure, onde é possível abrir uma tela que exibe o globo e possibilita interagir e visualizar todas as regiões, datacenters e suas interligações em 3D.
